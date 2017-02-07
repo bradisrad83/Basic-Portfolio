@@ -89,6 +89,7 @@ footer{
 	font: sans-serif;
 	font-color: black;
 }
+
 figcaption{
 	font: sans-serif;
 	font-color: black;
@@ -117,4 +118,12 @@ figcaption{
 	position: absolute;
 	left: 50px;
 	top: 700px;
+}
+@media screen and (max-width: 768px){
+	.wrapper{max-width: 768px;}
+	
+}
+@media screen and (max-width: 640px){
+	.wrapper{max-width: 640px;}
+	
 }
